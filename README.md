@@ -27,6 +27,7 @@ The goals are quite simple:
     - Smaller packages size
 
 3. A generic transport layer
+
     Uses the browsers fetch by default but could use all sorts of transports that conform to that API! (e.g. for electron)
 
 4. Typescript
