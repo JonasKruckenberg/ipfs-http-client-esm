@@ -1,0 +1,1 @@
+function put(key:string,value: Uint8Array | string) {}
