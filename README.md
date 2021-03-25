@@ -33,6 +33,20 @@ The goals are quite simple:
 4. Typescript
     - Fully typed APIs without the housekeeping
 
+## FAQ
+
+- Does this conform to the js-ipfs core API?
+
+Nope. Since this module is a fresh start anyway, I took the liberty to streamline a few return types that were unnecessarily convoluted in my opinion. 
+
+- Is this feature complete?
+
+Not yet, but that is the goal!
+
+- Can I help?
+
+Yes very much so! Feel free to take a look at the issues of open some!
+
 ## License
 
 [MIT © Jonas Kruckenberg.](./LICENSE)
