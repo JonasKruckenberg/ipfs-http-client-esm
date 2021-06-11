@@ -8,19 +8,19 @@ interface ClientOptions {
     timeout?: number | false
 }
 
-export interface Endpoint {
+export interface Client {
     url: string
     fetch: (url: string, options: RequestInit & { timeout?: number | false }) => Promise<Response>
 }
 
-export function createClient(options: ClientOptions = {}): Endpoint {
+export function createClient(options: ClientOptions = {}): Client {
     const {
         protocol = 'http',
         host = 'localhost',
         port = 5001,
         path = 'api/v0',
         url = `${protocol}://${host}:${port}/${path}`,
-        fetch: _fetch = fetch,
+        fetch: _fetch = globalThis.fetch,
         timeout = 5000
     } = options
 
