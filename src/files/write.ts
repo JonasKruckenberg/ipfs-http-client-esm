@@ -6,4 +6,4 @@ interface WriteOptions {
     hash: string
 }
 
-function write(path:string, data:Uint8Array, options: WriteOptions) {}
+export function write(path:string, data:Uint8Array, options: WriteOptions) {}

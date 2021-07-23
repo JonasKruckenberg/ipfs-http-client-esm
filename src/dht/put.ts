@@ -1,1 +1,1 @@
-function put(key:string,value: Uint8Array | string) {}
+export function put(key:string,value: Uint8Array | string) {}

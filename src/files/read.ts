@@ -1,1 +1,1 @@
-function read(path:string, offset: number, length: number) {}
+export function read(path:string, offset: number, length: number) {}

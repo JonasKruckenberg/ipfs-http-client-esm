@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "license": "MIT",
   "sideEffects": false,
   "scripts": {
     "dev": "rollup -cw",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "t": "node test.mjs"
   },
   "devDependencies": {
     "rollup": "^2.42.3",

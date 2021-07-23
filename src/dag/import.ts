@@ -1,1 +1,1 @@
-function importFromCAR(car:Uint8Array) {}
+export function importFromCAR(car:Uint8Array) {}

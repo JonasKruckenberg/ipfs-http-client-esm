@@ -7,14 +7,20 @@ export default {
     input: 'src/index.ts',
     output: [
         {
-            file: 'dist/index.cjs',
+            dir: 'dist',
             format: 'cjs',
-            sourcemap: true
+            sourcemap: true,
+            preserveModules: true,
+            entryFileNames: "[name].cjs",
+            chunkFileNames: "[name].cjs"
         },
         {
-            file: 'dist/index.mjs',
+            dir: 'dist',
             format: 'esm',
-            sourcemap: true
+            sourcemap: true,
+            preserveModules: true,
+            entryFileNames: "[name].mjs",
+            chunkFileNames: "[name].mjs"
         }
     ],
     plugins: [
