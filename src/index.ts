@@ -9,5 +9,7 @@ export * as key from './key'
 export * as name from './name'
 export * as pin from './pin'
 export * as pubsub from './pubsub'
+export * from './id'
+export * from './cat'
 
 export { createClient } from './util/endpoint'
