@@ -1,4 +1,4 @@
-import { Client } from './endpoint'
+import { Client } from './client'
 
 export interface ExecuteOptions extends RequestInit {
     timeout?: number | false
