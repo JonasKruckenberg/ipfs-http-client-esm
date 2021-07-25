@@ -12,4 +12,4 @@ export * as pubsub from './pubsub'
 export * from './id'
 export * from './cat'
 
-export { createClient } from './util/endpoint'
+export * from './util/client'
